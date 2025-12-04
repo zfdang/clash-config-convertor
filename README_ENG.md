@@ -48,14 +48,6 @@ Edit templates in `src/templates/` to customize output format:
 - `trojan.yaml`
 - `ss.yaml`
 
-## Development
-
-```bash
-npm run dev      # Start dev server
-npm run build    # Production build
-npm test         # Run tests
-```
-
 ## Tech Stack
 
 - React 19 + Vite

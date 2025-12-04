@@ -48,14 +48,6 @@ proxies:
 - `trojan.yaml`
 - `ss.yaml`
 
-## 开发命令
-
-```bash
-npm run dev      # 启动开发服务器
-npm run build    # 生产环境构建
-npm test         # 运行测试
-```
-
 ## 技术栈
 
 - React 19 + Vite
