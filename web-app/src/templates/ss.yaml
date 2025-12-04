@@ -1,0 +1,10 @@
+- name: "{{name}}"
+  type: ss
+  server: "{{server}}"
+  port: {{port}}
+  cipher: "{{cipher}}"
+  password: "{{password}}"
+  plugin: "{{plugin}}"
+  plugin-opts:
+    mode: "{{plugin-mode}}"
+    host: "{{plugin-host}}"

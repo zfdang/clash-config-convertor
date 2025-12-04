@@ -1,0 +1,15 @@
+- name: "{{name}}"
+  type: trojan
+  server: "{{server}}"
+  port: {{port}}
+  password: "{{password}}"
+  udp: {{udp}}
+  sni: "{{sni}}"
+  skip-cert-verify: {{skip-cert-verify}}
+  network: "{{network}}"
+  ws-opts:
+    path: "{{ws-path}}"
+    headers:
+      Host: "{{ws-host}}"
+  grpc-opts:
+    grpc-service-name: "{{grpc-service-name}}"

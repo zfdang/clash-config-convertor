@@ -1,0 +1,24 @@
+- name: "{{name}}"
+  type: vless
+  server: "{{server}}"
+  port: {{port}}
+  uuid: "{{uuid}}"
+  flow: "{{flow}}"
+  udp: {{udp}}
+  tls: {{tls}}
+  skip-cert-verify: {{skip-cert-verify}}
+  network: "{{network}}"
+  reality-opts:
+    public-key: "{{reality-public-key}}"
+    short-id: "{{reality-short-id}}"
+  client-fingerprint: "{{client-fingerprint}}"
+  ws-opts:
+    path: "{{ws-path}}"
+    headers:
+      Host: "{{ws-host}}"
+  h2-opts:
+    host:
+      - "{{h2-host}}"
+    path: "{{h2-path}}"
+  grpc-opts:
+    grpc-service-name: "{{grpc-service-name}}"
